@@ -1,0 +1,61 @@
+#container {
+  max-width: 1500px;
+  margin: auto;
+  background-image: radial-gradient(
+    circle,
+    #256b42 0%,
+    #133823 20%,
+    rgb(4, 28, 7) 50%
+  );
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+#input-section {
+  background-image: linear-gradient(#9fbb3c, #72cf2c);
+  width: 40%;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 55px;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 30px;
+}
+#input-div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 40%;
+  color: black;
+}
+input {
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid rgba(44, 43, 43, 0.481);
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+}
+label {
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+}
+#display-data {
+  margin-top: 100px;
+  width: 50%;
+}
+table {
+  display: flex;
+  flex-direction: column;
+}
+thead {
+  color: #51b37a;
+}
+tr {
+  display: flex;
+  justify-content: space-between;
+}
